@@ -1,0 +1,369 @@
+body {
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+.attribution {
+    display: none;
+}
+:root {
+    --main-color : hsl(322, 100%, 66%);
+}
+/* Start Header */
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+.header {
+
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: cover;
+}
+
+.header .container img {
+    width: 171px;
+}
+.header .container img:hover {
+    cursor: pointer;
+}
+.header .container button {
+    padding: 10px 42px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px 0px 2px #ddd;
+    font-weight: bold;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.header .container button:hover {
+    cursor: pointer;
+    color: gray;
+}
+@media (max-width: 767px){
+    .header .container {
+        margin : 10px 5px;
+    }
+
+}
+/* End Header */
+/* Start Landing */
+.landing  img{
+    width: 500px;
+    margin-right: 50px;
+}
+.landing {
+    display: flex;
+}
+.landing .texts {
+    margin-left: 28px;
+    margin-top: 21px;
+}
+.landing .texts h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.landing .texts p {
+    font-weight: 500;
+}
+
+.landing .texts button {
+    border: 0;
+    background-color: var(--main-color);
+    padding: 16px 64px;
+    border-radius: 32px;
+    color: white;
+    
+    margin-left: 20px;
+
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+} 
+.landing .texts button:hover {
+    cursor: pointer;
+    background-color: rgb(233, 153, 202);
+}
+
+.landing , .header {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: cover;
+    
+}
+@media (max-width: 767px){
+    .landing {
+        display: block;
+        text-align: center;
+    }
+    .landing img {
+        margin: 0;
+        width: 351px;
+        margin: 26px 0 0 12px;
+    }
+
+
+}
+
+/* End Landing */
+/* Start Grow */
+.grow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 73px;
+
+}
+.grow p {
+    font-weight: 300;
+}
+.grow img {
+    width: 368px;
+    margin: 30px;
+    margin-left: 91px;
+}
+@media (max-width: 767px){
+    .grow {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+    .grow .texts {
+        margin-left: 28px;
+    }
+    .grow img {
+        width: 285px;
+        margin: 30px;
+    }
+}
+
+/* End Grow */
+
+/* Start Flowing */
+.flowing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flowing .texts {
+    margin-right: 115px;
+}
+.flowing img {
+    width: 389px;
+    margin: 0 102px 0 93px;
+
+}
+.flowing h2 {
+    font-weight: 600;
+}
+.flowing p {
+    font-weight: 300;
+
+}
+@media (max-width: 767px){
+    .flowing {
+        display: block;
+        text-align: center;
+
+        margin-top: 20px;
+    }
+    .flowing img {
+        width: 351px;
+        margin: 24px 0 0 10px;
+    }
+    .flowing .texts {
+        margin: auto;
+    }
+
+}
+
+/* End Flowing */
+/* Start Users */
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 73px;
+
+}
+.users p {
+    font-weight: 300;
+}
+.users img {
+    width: 368px;
+    margin: 30px;
+    margin-left: 91px;
+}
+@media (max-width: 767px){
+    .users {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+    .users .texts {
+        margin-left: 28px;
+    }
+    .users img {
+        width: 285px;
+        margin: 30px;
+    }
+}
+/* End Users */
+
+/* Start ready */
+.footer .ready .container {
+    color: black;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    width: fit-content;
+    flex-direction: column;
+    margin: auto;
+    padding: 22px;
+    border-radius: 16px;
+    color: black;
+    position: relative;
+    bottom: 90px;
+}
+.footer .ready button {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 53px;
+    border-radius: 24px;
+}
+.footer .ready button:hover {
+    background-color: rgb(209, 116, 204);
+    cursor: pointer;
+}
+
+
+/* End ready */
+/* Start Footer */
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    margin: -8px;
+}
+.footer .foot {
+    
+    display: flex;
+}
+.footer .foot .box1 {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.footer .foot img {
+    width: 207px;
+    margin: 11px;
+    position: relative;
+    bottom: 65px;
+}
+.footer .foot  {
+    display: flex;
+    color: white;
+    margin: 5px;
+}
+.footer .foot .box1 i {
+    padding: 5px;
+}
+.phone , .email , .location {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+li{
+    margin: 50px;
+    display: flex;
+
+}
+.footer .foot .box2 a {
+    text-decoration: none;
+    color: white;
+}
+.footer .foot .box2 a:hover {
+    text-decoration: underline;
+}
+.footer .foot .box2 {
+    display: flex;
+    position: relative;
+    bottom: 68px;
+}
+.footer .foot .box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer .box3 .social i {
+    margin: 15px;
+    padding: 15px;
+}
+.footer .bok3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer .bok3 .social i {
+    margin: 10px;
+    border: 0.2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.footer .bok3 .social i:hover {
+    background-color: var(--main-color) ;
+    cursor: pointer;
+}
+.footer .foot .box3 .social i {
+    margin-right: 10px;
+}
+@media (max-width: 767px){
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+    .footer .foot {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    .footer .foot .box2 {
+        display: block;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        left: -41px;
+        top: 10px;
+    }
+    .footer .foot .box1 {
+        margin: 20px;
+    }
+    .footer .foot .box1 p {
+        padding: 7px;
+    }
+    .location p {
+        margin: 0;
+    }
+}
+/* End Footer */
+
+
